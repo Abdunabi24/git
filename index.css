@@ -14,3 +14,22 @@ justify-content: space-between;
 button{
     padding-bottom: 10px;
 }
+main{
+    padding: 20px 60px;
+
+}
+ .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,lfr);
+    gap: 20px;
+ }
+  
+ .card{
+    padding: 20px;
+     display: flex;
+     align-items: center;
+     height: 250px;
+     background-color: orange;
+     justify-content: center;
+ }
